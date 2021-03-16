@@ -9,10 +9,10 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout code
+      - name: Checkoutcode
         uses: actions/checkout@v2
         
       - run: |
           cd lab1/
-          make main.test
-          ./main.test
+          make maintest
+          ./maintest
