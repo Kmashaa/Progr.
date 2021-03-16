@@ -1,19 +1,20 @@
-name: buildandtest
+name: lab2
 
-on: push
+on:
+  push:
+    branches: [ lab2 ]
+  pull_request:
+    branches: [ lab2 ]
 
 jobs:
-
   build:
 
-    runs-on: ubuntu-latest
+    runs-on: windows-latest
 
     steps:
-      - name: Checkoutcode
-      
-        uses: actions/checkout@v2
-        
-      - run: |
-          cd lab1/
+    - uses: actions/checkout@v2
+    - name: make
+      run: |
+        cd lab1/ 
           make maintest
-          ./maintest
+          ./test
