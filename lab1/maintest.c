@@ -1,4 +1,5 @@
 #include <assert.h>
+#include <stdio.h>
 #include "main.h"
 void test1(void){
     assert(count(5) == 3);
