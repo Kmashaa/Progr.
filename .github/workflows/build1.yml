@@ -16,5 +16,5 @@ jobs:
     - name: make
       run: |
         cd lab1/ 
-          make maintest
+          make maintest.c
           ./test
