@@ -1,4 +1,4 @@
 lab1: main.c
-gcc -ansi main.c -o main.exe
+gcc -ansi main.c -o main
 lab1test: main.c main.test.c
-gcc -ansi main.test.c main.c -o test.exe -Dmain=_main
+gcc -ansi main.test.c main.c -o test -Dmain=_main
