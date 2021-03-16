@@ -1,10 +1,10 @@
-name: lab2
+name: lab1
 
 on:
   push:
-    branches: [ lab2 ]
+    branches: [ lab1 ]
   pull_request:
-    branches: [ lab2 ]
+    branches: [ lab1 ]
 
 jobs:
   build:
