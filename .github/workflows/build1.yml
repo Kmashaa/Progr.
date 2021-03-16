@@ -14,5 +14,5 @@ jobs:
         
       - run: |
           cd lab1/
-          make main.test.c
-          ./main.test.c
+          make main.test
+          ./main.test
