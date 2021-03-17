@@ -28,4 +28,5 @@ int main(void){
     test4();
     test5();
     test6();
+    return 0;
 }
