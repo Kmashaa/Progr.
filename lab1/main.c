@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include "main.h"
-#ifndef TEST
+
 int main(void)
 {
     long num=0, counter, i;
@@ -38,7 +38,7 @@ int main(void)
     getchar();
     return 0;
 }
-#endif
+
 int count(int num){
     int counter=0;
      while (num > 0) {
