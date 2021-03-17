@@ -1,23 +1,19 @@
 #include <assert.h>
 #include <stdio.h>
 #include "main.h"
+
 void test1(void){
     assert(count(5) == 3);
+    assert(count(1) == 1);
+    assert(count(0) == 0);
+    printf("Count tests passed successfully");
 }
+
 void test2(void){
-    assert(count(1)==1);
-}
-void test3(void){
-    assert(count(0)==0);
-}
-void test4(void){
-    assert(countAny(5,1) == 8);
-}
-void test5(void){
-    assert(countAny(4,2)==2);
-}
-void test6(void){
-    assert(countAny(4,3)==1);
+    assert(countAny(5, 1) == 8);
+    assert(countAny(4, 2) == 2);
+    assert(countAny(4, 3) == 1);
+    printf("CountAny tests passed successfully");
 }
 
 #undef main
@@ -25,10 +21,6 @@ void test6(void){
 int main(void){
     test1();
     test2();
-    test3();
-    test4();
-    test5();
-    test6();
-    printf("All tests are successfully");
+    printf("All tests passed successfully");
     return 0;
 }
