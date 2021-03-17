@@ -20,6 +20,7 @@ void test6(void){
     assert(countAny(4,3)==1);
 }
 
+#undef main
 
 int main(void){
     test1();
