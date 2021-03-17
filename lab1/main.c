@@ -24,7 +24,7 @@ int main(void)
                 
             }
             if(number10<=num)
-            {   for (int i = 0; i < counter; i++) 
+            {   for (i = 0; i < counter; i++) 
                 {
                      printf("1");
                 }
