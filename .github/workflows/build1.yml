@@ -12,6 +12,7 @@ jobs:
     steps:
     - name: Cool
       uses: actions/checkout@v2
+        clean=false
     - name: make
       run: |
         cd lab1/
