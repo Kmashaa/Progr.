@@ -4,20 +4,20 @@
 
 int main(void)
 {
-    long num=0, counter, i;
-    printf("Enter the number");
-    scanf("%d",&num);
-    counter=count(num);
-
+    long num =0, counter, i, j;
     int digit;
     int number10 = 0;
+    printf("Enter the number");
+    scanf("%ld",&num);
+    counter=count(num);
+
     if(counter==0){
         printf("No such numbers");
     } else 
     {
-        for (int j = counter; j > 0; j--) 
+        for (j = counter; j > 0; j--) 
         {
-            for (int i = 0; i < counter; i++) 
+            for (i = 0; i < counter; i++) 
             {
                 int any=countAny(counter,i);
                 number10 +=  any;
