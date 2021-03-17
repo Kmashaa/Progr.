@@ -28,5 +28,6 @@ int main(void){
     test4();
     test5();
     test6();
+    printf("All tests are successfully");
     return 0;
 }
