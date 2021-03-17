@@ -17,4 +17,4 @@ jobs:
       run: |
         cd lab1/
         make lab1test
-        ./test
+        ./test.exe
