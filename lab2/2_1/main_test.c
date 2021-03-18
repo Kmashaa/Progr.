@@ -34,4 +34,5 @@ int main(void){
     test6();
     test7();
     test8();
+    return 0;
 }
