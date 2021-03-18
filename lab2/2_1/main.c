@@ -26,7 +26,7 @@ int main() {
     R = Rad(a, b, c, s);
     printf("\nR=%f", R);
     inf();
-    ex();
+    /*ex();*/
     
     return 0;
 }
