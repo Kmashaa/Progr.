@@ -10,10 +10,10 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Cool
+    - name: Checkout
       uses: actions/checkout@v2
 
-    - name: make
+    - name: Build1
       run: |
         cd lab1/
         make lab1test
