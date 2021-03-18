@@ -12,9 +12,18 @@ jobs:
     steps:
     - name: Cool
       uses: actions/checkout@v2
-    
+
     - name: make
       run: |
         cd lab1/
         make lab1test
-        ./test.exe
+        ./test
+        
+    - name: Build2
+      run: |
+        cd lab2/2_1 
+        make lab2.1test
+        ./test
+        cd ../Lab2_2_6 
+        make lab1tes 
+        ./test
