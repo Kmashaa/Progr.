@@ -17,8 +17,7 @@ int main() {
 	n = 1;
 	n = countNew(x, e, n);
 	printf("\n%d", n);
-	
-	
+	return 0;	
 }
 
 double countSecond(double x, int n) {
