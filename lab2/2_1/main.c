@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include <math.h>
-#include <stdlib.h>
 #include "main.h"
 int main() {
     int x1, x2, x3, y1, y2, y3;
@@ -25,9 +24,7 @@ int main() {
     printf("\nr=%f", r);
     R = Rad(a, b, c, s);
     printf("\nR=%f", R);
-    inf();
-    /*ex();*/
-    
+    inf();  
     return 0;
 }
 
@@ -72,7 +69,4 @@ void vw(float a, float b, float c,float x1, float x2, float x3, float y1, float 
     }
     void inf(){
         printf("\nversion 1.0\n Kravchenko Maria Aleksandrovna");
-    }
-    void ex(){
-        exit(0);
     }
