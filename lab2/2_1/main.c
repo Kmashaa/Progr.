@@ -27,6 +27,8 @@ int main() {
     printf("\nR=%f", R);
     inf();
     ex();
+    
+    return 0;
 }
 
 void vw(float a, float b, float c,float x1, float x2, float x3, float y1, float y2, float y3) {
