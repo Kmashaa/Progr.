@@ -21,12 +21,7 @@ int main()
     }
     len--;
     i--;
-
-   /* sqr = sqrt(len);
-    if (sqr * sqr < len) {
-        sqr++;
-    }
-    n = sqr;*/
+    
     n=countMatrixSide(len);
     Arr = (char**)malloc( n *  sizeof(char*));
     
