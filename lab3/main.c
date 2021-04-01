@@ -28,7 +28,6 @@ int main()
    if(!Arr) {
         printf("Error\n");
         free(Arr);
-        /*This may be nesessary if programm contiue working*/
         Arr = NULL;
         return 1;
     }
@@ -48,7 +47,6 @@ int main()
             free(Arr[i]);
         }
         free(Arr);
-        /*This may be nesessary if programm contiue working*/
         Arr = NULL;
         return 1;
     }
