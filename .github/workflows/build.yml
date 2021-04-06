@@ -39,3 +39,9 @@ jobs:
         cd 41
         make lab41test
         ./test
+        
+    - name: Build42
+      run: |
+        cd 42
+        make lab42test
+        ./test
