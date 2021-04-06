@@ -13,6 +13,12 @@ int main() {
 	char ff,ss,tt;
 	int counter2 = 0;int k = 0;
 	tx = (char*)malloc(1000 * sizeof(char));
+	if (!tx) {
+		printf("Error\n");
+		free(tx);
+		tx = NULL;
+		return 1;
+	}
 	scanf("%999[^&]s", tx);
 	while (tx[length] >= 'a' && tx[length] <= '~') {	
 		length++;
@@ -56,7 +62,13 @@ int main() {
 				}
 			}
 			if (p == counter && p > 0) {
-				 newtx = (char*)malloc((length - p) * sizeof(char));				
+			newtx = (char*)malloc((length - p) * sizeof(char));
+			if (!newtx) {
+			printf("Error\n");
+			free(newtx);
+			newtx = NULL;
+			return 1;
+	}
 				 for (k; k < i; k++) {
 					newtx[k] = tx[k];
 				}
