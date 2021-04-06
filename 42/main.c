@@ -1,14 +1,12 @@
 #include <stdio.h>
 #include<stdlib.h>
 
-
 int main(){
     int str[100];
     int x=0,i=0,k=0;
     int s=0;
     FILE* f=fopen("input.txt","r");
-     if (f == NULL)
-    {
+     if (f == NULL){
         printf("Error occured");
         return 1;
     }
