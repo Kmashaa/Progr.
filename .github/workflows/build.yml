@@ -34,3 +34,10 @@ jobs:
         make lab3test
         ./test
         
+    - name: Build41
+     run: |
+        cd 41/
+        make lab41test
+        ./test
+		 	
+        
