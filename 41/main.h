@@ -1,0 +1,1 @@
+int check(char ff, char ss, char tt);

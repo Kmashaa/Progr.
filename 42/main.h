@@ -1,0 +1,1 @@
+int arith(int x, int k);
