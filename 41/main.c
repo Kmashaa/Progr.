@@ -64,7 +64,7 @@ int main() {
 			if (p == counter && p > 0) {
 			newtx = (char*)malloc((length - p) * sizeof(char));
 			if (!newtx) {
-			printf("Error\n");
+			printf("Error2\n");
 			free(newtx);
 			newtx = NULL;
 			return 1;
