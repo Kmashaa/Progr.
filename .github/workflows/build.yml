@@ -39,5 +39,3 @@ jobs:
         cd 41/
         make lab41test
         ./test
-		 	
-        
