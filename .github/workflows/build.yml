@@ -35,7 +35,7 @@ jobs:
         ./test
         
     - name: Build41
-     run: |
-        cd 41/
+      run: |
+        cd 41
         make lab41test
         ./test
