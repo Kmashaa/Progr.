@@ -11,10 +11,8 @@ int main() {
         printf("Incorrect input.\n");
     }
     power(3, p, num);
-    printf("%s", toString(num));
-    printf("\n");
+    printf("%d", num);
     deleteNumber(num);
-    system("pause");
     return 0;
 }
 
