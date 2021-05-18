@@ -1,5 +1,6 @@
 #include "tree.h"
 #include <assert.h>
+
 int check(const char *fileName) {
 char buffer[128];
 Item *root = NULL;
@@ -43,4 +44,3 @@ int main() {
     printf("All tests passed successful");
     return 0;
 }
-
