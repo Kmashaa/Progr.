@@ -5,32 +5,33 @@
 void AddNode(int data, Item **node)
 {
  if (*node == NULL) {
- *node = (Item *)calloc(1, sizeof(Item));
- (*node)->data = data;
- (*node)->left = (*node)->right = NULL;
+    *node = (Item *)calloc(1, sizeof(Item));
+    (*node)->data = data;
+    (*node)->left = (*node)->right = NULL;
  } else {
- if (data > (*node)->data)
- AddNode(data, &(*node)->left); 
+    if (data > (*node)->data)
+       AddNode(data, &(*node)->left); 
 
  else if (data < (*node)->data)
- AddNode(data, &(*node)->right);
+    AddNode(data, &(*node)->right);
  }
 }
 
 void AddNodeNew(int data, Item **node)
 {
- if (*node == NULL) {
- *node = (Item *)calloc(1, sizeof(Item));
- (*node)->data = data;
- (*node)->left = (*node)->right = NULL;
+    if (*node == NULL) {
+       *node = (Item *)calloc(1, sizeof(Item));
+      (*node)->data = data;
+      (*node)->left = (*node)->right = NULL;
  } else {
- if (data < (*node)->data)
- AddNodeNew(data, &(*node)->left); 
+    if (data < (*node)->data)
+       AddNodeNew(data, &(*node)->left); 
 
  else if (data > (*node)->data)
- AddNodeNew(data, &(*node)->right);
+    AddNodeNew(data, &(*node)->right);
  }
 }
+
 void LeftOrder(Item *node)
 {
  if (node->left)
@@ -40,5 +41,4 @@ void LeftOrder(Item *node)
 
  if (node->right)
     LeftOrder(node->right);
-    
 } 
