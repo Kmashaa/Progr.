@@ -17,7 +17,7 @@ int main()
  fp = fopen("ex52.txt", "r");
  if (!fp) exit(1); 
  while (fgets(buffer, 128, fp) != NULL)
- AddNodeNew(atoi(buffer), &root); 
+    AddNodeNew(atoi(buffer), &root); 
  LeftOrder(root);
  fclose(fp);
  return 0;
