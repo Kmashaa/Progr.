@@ -40,7 +40,7 @@ int main() {
     assert(checkNew("file1.txt")==0);
     assert(checkNew("file2.txt")==0);
     
-    printf("All tests pased successful");
+    printf("All tests passed successful");
     return 0;
 }
 
