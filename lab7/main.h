@@ -1,4 +1,7 @@
+#ifndef MAIN_H
+#define MAIN_H
 #pragma once
+
 #include <iostream>
 #include <string>
 using namespace std;
@@ -186,3 +189,4 @@ Node::Node(string number, string category, string passport, int balance, Node* p
     data.balance = balance;
     this->pNext = pNext;
 }
+#endif
