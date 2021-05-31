@@ -1,5 +1,6 @@
 #include "main.h"
 #include <stdio.h>
+#include <iostream>
 using namespace std;
 
 char CheckInput() {
@@ -25,7 +26,7 @@ char CheckInput() {
         CheckInput();
     }
     
-    return 0;
+    return 'a';
 }
 int main()
 {
