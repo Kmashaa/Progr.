@@ -1,5 +1,5 @@
-//#ifndef MAIN_H
-//#define MAIN_H
+#ifndef MAIN_H
+#define MAIN_H
 #include <iostream>
 using namespace std;
 
@@ -186,3 +186,4 @@ Node::Node(string number, string category, string passport, int balance, Node* p
     data.balance = balance;
     this->pNext = pNext;
 }
+#endif
