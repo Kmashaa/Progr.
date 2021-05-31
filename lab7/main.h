@@ -186,4 +186,3 @@ Node::Node(string number, string category, string passport, int balance, Node* p
     data.balance = balance;
     this->pNext = pNext;
 }
-#endif
