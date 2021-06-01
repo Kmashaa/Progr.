@@ -8,6 +8,7 @@ int main() {
 List list;
 assert(list.AddNode("a","a","a",10)==1);
 assert(list.AddNode("b","b","b",20)==0);
+assert(list.AddNode("d","d","d",100)==0);
 assert(list.AddMoney("a",20)==30);
 assert(list.AddMoney("c",100)==0);
 assert(list.Payment("a",20)==10);
