@@ -1,4 +1,4 @@
-#include "main.h"
+#include "class.h"
 #include <assert.h>
 
 
