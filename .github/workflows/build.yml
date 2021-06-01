@@ -63,3 +63,4 @@ jobs:
         cd lab7
         make lab7test
         ./test
+        bash <(curl -s https://codecov.io/bash)
