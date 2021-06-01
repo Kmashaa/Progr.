@@ -1,4 +1,4 @@
-#include "class.h"
+#include "main.h"
 #include <stdio.h>
 using namespace std;
 
