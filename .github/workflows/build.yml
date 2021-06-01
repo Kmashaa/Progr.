@@ -62,4 +62,5 @@ jobs:
       run: |
         cd lab7
         make lab7test
+        ./test
         make checkCov
