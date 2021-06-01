@@ -62,4 +62,5 @@ jobs:
       run: |
         cd lab7
         make lab7test
-        ./test
+        make checkCov
+      - run: bash <(curl -s https://codecov.io/bash) -t 9723be92e-c756-43a1-8edf-a53b51725e41
