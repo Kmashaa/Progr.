@@ -1,4 +1,4 @@
-lab7: main.cpp
-	g++ main.cpp -o main.exe  
-lab7test: main.cpp maintest.cpp
-	g++ --coverage maintest.cpp -o test -Dmain=_main
+lab7: main.cpp class.cpp
+	g++ main.cpp class.cpp -o main.exe  
+lab7test: maintest.cpp class.cpp
+	g++ --coverage maintest.cpp class.cpp -o test -Dmain=_main
